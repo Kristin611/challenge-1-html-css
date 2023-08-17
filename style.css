@@ -1,0 +1,12 @@
+
+.heading {
+    background-color: plum;
+    color: rgb(27, 103, 36);
+    
+}
+
+#parent {
+    background-color: rgb(27, 103, 36);
+    color: plum; }
+    
+/* } The difference between the element, class, and ID attributes are that each one is increasingly more specific when styling html elements. The ID attribute is more specific than the class attribute, and overrides it as well. The ID and class attributes are more specific than the element attribute, and therefore override the element selector.  */
