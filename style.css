@@ -2,6 +2,9 @@
 .heading {
     background-color: plum;
     color: rgb(27, 103, 36);
+    display: flexbox;
+
+    
     
 }
 
@@ -9,4 +12,31 @@
     background-color: rgb(27, 103, 36);
     color: plum; }
     
-/* } The difference between the element, class, and ID attributes are that each one is increasingly more specific when styling html elements. The ID attribute is more specific than the class attribute, and overrides it as well. The ID and class attributes are more specific than the element attribute, and therefore override the element selector.  */
+/* } The difference between the element, class, and ID attributes are that each one is increasingly more specific when styling html elements. The ID attribute is more specific than the class attribute, and overrides it as well. The ID and class attributes are more specific than the element attribute, and therefore override the element selector. Class selectors use . and id selectors use #. */
+
+h2 {
+    background-color: pink;
+    font-style: italic
+}
+
+p {
+    background-color: palevioletred;
+    font-size: 15px;
+}
+
+.first {
+    font-size: 100px; 
+    /* How to change the font size of <h1>? Can you not change <h1> at all? */
+    font-style: italic  ;
+}
+
+footer {
+    text-align: center
+}
+
+
+
+.fit-picture {
+    width: 350px;
+    float: right;
+}
